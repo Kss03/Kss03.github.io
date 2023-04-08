@@ -1,0 +1,45 @@
+{
+    "eng": {
+      "links": [
+        {
+          "altimg": "phone: ",
+          "img": "bi bi-phone",
+          "title": "+48 660 151-855",
+          "link": "tel:+48660151855",
+          "id": "1"
+        },
+        {
+          "altimg": "email: ",
+          "img": "bi bi-envelope-fill",
+          "title": "suranov123w@gmail.com",
+          "link": "mailto:suranov123w@gmail.com",
+          "id": "2"
+  
+        },
+        {
+          "altimg": "image",
+          "img": "bi bi-facebook",
+          "title": "facebook",
+          "link": "https://www.facebook.com/kirill.suranov.9/",
+          "id": "3"
+  
+        },
+        {
+          "altimg": "image",
+          "img": "bi bi-whatsapp",
+          "title": "facebook",
+          "link": "https://www.facebook.com/kirill.suranov.9/",
+          "id": "4"
+  
+        }
+      ],
+
+      "data": {
+        
+      }
+    },
+
+    "pl": {
+
+    }
+  }
