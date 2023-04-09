@@ -1,5 +1,11 @@
 {
     "eng": {
+      "main": {
+        "name": "Kirill Suranov",
+        "prof": "Front-End Developer",
+        "location": "Szczecin, Poland"
+      },
+
       "links": [
         {
           "altimg": "phone: ",
@@ -27,19 +33,395 @@
         {
           "altimg": "image",
           "img": "bi bi-whatsapp",
-          "title": "facebook",
-          "link": "https://www.facebook.com/kirill.suranov.9/",
+          "title": "whatsapp",
+          "link": "https://wa.me/+48660151855",
           "id": "4"
   
         }
       ],
 
       "data": {
-        
+        "education": {
+          "title": {
+            "ifLink": false,
+            "item": ["education"],
+            "class": "text-uppercase"
+          },
+          "items": [
+            [{
+              "ifLink": false,
+              "item": ["Siberian State University of Telecommunications and informatics"],
+              "class": "fw-semibold mb-1"
+            },
+            {
+              "ifLink": false,
+              "item": ["Secondary specialized education", "2012 - 2016"],
+              "class": "mb-3 d-flex justify-content-between"
+            },
+            {
+              "ifLink": false,
+              "item": ["Multi-channel communication systems"],
+              "class": ""
+            }]
+          ]
+        },
+        "courses": {
+          "title": {
+            "ifLink": false,
+            "item": ["courses"],
+            "class": "text-uppercase"
+          },
+          "items": [
+            [{
+              "ifLink": false,
+              "item": ["Coursera"],
+              "class": "fw-semibold mb-1"
+            },
+            {
+              "ifLink": false,
+              "item": ["Meta Front-End Developer", "2022"],
+              "class": "mb-3 d-flex justify-content-between"
+            }],
+            [{
+              "ifLink": false,
+              "item": ["Udemy"],
+              "class": "fw-semibold mb-1"
+            },
+            {
+              "ifLink": false,
+              "item": ["Full JavaScript + React", "2023"],
+              "class": "mb-3 d-flex justify-content-between"
+            }]
+          ]
+        },
+        "skills": {
+          "title": {
+            "ifLink": false,
+            "item": ["skills"],
+            "class": "text-uppercase"
+          },
+          "items": [
+            [{
+              "ifLink": false,
+              "item": ["React, Redux"],
+              "class": "bi bi-dot mb-2"
+            },
+            {
+              "ifLink": false,
+              "item": ["HTML5, CSS3, JS, sass"],
+              "class": "bi bi-dot mb-2"
+            },
+            {
+              "ifLink": false,
+              "item": ["Webpack, Vite"],
+              "class": "bi bi-dot mb-2"
+            },
+            {
+              "ifLink": false,
+              "item": ["Git"],
+              "class": "bi bi-dot mb-2"
+            },
+            {
+              "ifLink": false,
+              "item": ["Bootstrap"],
+              "class": "bi bi-dot mb-2"
+            },
+            {
+              "ifLink": false,
+              "item": ["Figma"],
+              "class": "bi bi-dot mb-2"
+            }]
+          ]
+        },
+        "languages": {
+          "title": {
+            "ifLink": false,
+            "item": ["languages"],
+            "class": "text-uppercase"
+          },
+          "items": [
+            [{
+              "ifLink": false,
+              "item": ["Polish (B2)"],
+              "class": "bi bi-dot mb-2"
+            },
+            {
+              "ifLink": false,
+              "item": ["English (A2)"],
+              "class": "bi bi-dot mb-2"
+            },
+            {
+              "ifLink": false,
+              "item": ["Russian (C2)"],
+              "class": "bi bi-dot mb-2"
+            }]
+          ]
+        },
+        "experience": {
+          "title": {
+            "ifLink": false,
+            "item": ["experience"],
+            "class": "text-uppercase"
+          },
+          "items": [
+            [{
+              "ifLink": false,
+              "item": ["Freelance commerce projects"],
+              "class": "fw-semibold mb-2"
+            },
+            {
+              "ifLink": true,
+              "item": ["Reichbauen (e-commerce)", "2022"],
+              "class": "mb-1 ps-2 d-flex justify-content-between",
+              "link": "https://reichbauen.ru/"
+            },
+            {
+              "ifLink": false,
+              "item": ["front-end development, adaptive layout (html, scss, js, bootstrap, webpack)"],
+              "class": "ps-2 bi bi-dot mb-1"
+            },
+            {
+              "ifLink": false,
+              "item": ["design solutions"],
+              "class": "ps-2 bi bi-dot mb-3"
+            },
+            {
+              "ifLink": true,
+              "item": ["Deft Group (real estate commerce)", "In progress.."],
+              "class": "ps-2 mb-1 d-flex justify-content-between",
+              "link": "#"
+            },
+            {
+              "ifLink": false,
+              "item": ["front-end application (React, bootstrap, sass, Vite)"],
+              "class": "ps-2 bi bi-dot mb-3"
+            }],
+            [{
+              "ifLink": false,
+              "item": ["Pet-projects"],
+              "class": "fw-semibold mb-2"
+            },
+            {
+              "ifLink": true,
+              "item": ["Reichbauen (e-commerce)", "2022"],
+              "class": "mb-1 ps-2 d-flex justify-content-between",
+              "link": "https://reichbauen.ru/"
+            },
+            {
+              "ifLink": false,
+              "item": ["front-end development, adaptive layout (html, scss, js, bootstrap, webpack)"],
+              "class": "ps-2 bi bi-dot mb-1"
+            }
+            ]
+          ]
+        }
       }
     },
 
     "pl": {
+      "main": {
+        "name": "Kirill Suranov",
+        "prof": "Front-End Developer",
+        "location": "Szczecin, Poland"
+      },
 
+      "links": [
+        {
+          "altimg": "phone: ",
+          "img": "bi bi-phone",
+          "title": "+48 660 151-855",
+          "link": "tel:+48660151855",
+          "id": "1"
+        },
+        {
+          "altimg": "email: ",
+          "img": "bi bi-envelope-fill",
+          "title": "suranov123w@gmail.com",
+          "link": "mailto:suranov123w@gmail.com",
+          "id": "2"
+  
+        },
+        {
+          "altimg": "image",
+          "img": "bi bi-facebook",
+          "title": "facebook",
+          "link": "https://www.facebook.com/kirill.suranov.9/",
+          "id": "3"
+  
+        },
+        {
+          "altimg": "image",
+          "img": "bi bi-whatsapp",
+          "title": "whatsapp",
+          "link": "https://wa.me/+48660151855",
+          "id": "4"
+  
+        }
+      ],
+
+      "data": {
+        "education": {
+          "title": {
+            "ifLink": false,
+            "item": ["wykształcenie"],
+            "class": "text-uppercase"
+          },
+          "items": [
+            [{
+              "ifLink": false,
+              "item": ["Sybirski Państwowy Uniwersytet Telekomunikacji i Informatyki"],
+              "class": "fw-semibold mb-1"
+            },
+            {
+              "ifLink": false,
+              "item": ["Średnie specjalistyczne", "2012 - 2016"],
+              "class": "mb-3 d-flex justify-content-between"
+            },
+            {
+              "ifLink": false,
+              "item": ["Wielokanałowe systemy telekomunikacyjne"],
+              "class": ""
+            }]
+          ]
+        },
+        "courses": {
+          "title": {
+            "ifLink": false,
+            "item": ["kursy"],
+            "class": "text-uppercase"
+          },
+          "items": [
+            [{
+              "ifLink": false,
+              "item": ["Coursera"],
+              "class": "fw-semibold mb-1"
+            },
+            {
+              "ifLink": false,
+              "item": ["Meta Front-End Developer", "2022"],
+              "class": "mb-3 d-flex justify-content-between"
+            }],
+            [{
+              "ifLink": false,
+              "item": ["Udemy"],
+              "class": "fw-semibold mb-1"
+            },
+            {
+              "ifLink": false,
+              "item": ["Full JavaScript + React", "2023"],
+              "class": "mb-3 d-flex justify-content-between"
+            }]
+          ]
+        },
+        "skills": {
+          "title": {
+            "ifLink": false,
+            "item": ["skills"],
+            "class": "text-uppercase"
+          },
+          "items": [
+            [{
+              "ifLink": false,
+              "item": ["React, Redux"],
+              "class": "bi bi-dot mb-2"
+            },
+            {
+              "ifLink": false,
+              "item": ["HTML5, CSS3, JS, sass"],
+              "class": "bi bi-dot mb-2"
+            },
+            {
+              "ifLink": false,
+              "item": ["Webpack, Vite"],
+              "class": "bi bi-dot mb-2"
+            },
+            {
+              "ifLink": false,
+              "item": ["Git"],
+              "class": "bi bi-dot mb-2"
+            },
+            {
+              "ifLink": false,
+              "item": ["Bootstrap"],
+              "class": "bi bi-dot mb-2"
+            },
+            {
+              "ifLink": false,
+              "item": ["Figma"],
+              "class": "bi bi-dot mb-2"
+            }]
+          ]
+        },
+        "languages": {
+          "title": {
+            "ifLink": false,
+            "item": ["języki"],
+            "class": "text-uppercase"
+          },
+          "items": [
+            [{
+              "ifLink": false,
+              "item": ["Polski (B2)"],
+              "class": "bi bi-dot mb-2"
+            },
+            {
+              "ifLink": false,
+              "item": ["Angielski (A2)"],
+              "class": "bi bi-dot mb-2"
+            },
+            {
+              "ifLink": false,
+              "item": ["Rosyjski (C2)"],
+              "class": "bi bi-dot mb-2"
+            }]
+          ]
+        },
+        "experience": {
+          "title": {
+            "ifLink": false,
+            "item": ["doświadczenie"],
+            "class": "text-uppercase"
+          },
+          "items": [
+            [{
+              "ifLink": false,
+              "item": ["Freelance projekty"],
+              "class": "fw-semibold mb-2"
+            },
+            {
+              "ifLink": true,
+              "item": ["Reichbauen (e-commerce)", "2022"],
+              "class": "mb-1 ps-2 d-flex justify-content-between",
+              "link": "https://reichbauen.ru/"
+            },
+            {
+              "ifLink": false,
+              "item": ["front-end development, adaptive layout (html, scss, js, bootstrap, webpack)"],
+              "class": "ps-2 bi bi-dot mb-1"
+            },
+            {
+              "ifLink": false,
+              "item": ["stylizacja projektu"],
+              "class": "ps-2 bi bi-dot mb-3"
+            },
+            {
+              "ifLink": true,
+              "item": ["Deft Group (handel nieruchomościami)", "In progress.."],
+              "class": "ps-2 mb-1 d-flex justify-content-between",
+              "link": "#"
+            },
+            {
+              "ifLink": false,
+              "item": ["front-end application (React, bootstrap, sass, Vite)"],
+              "class": "ps-2 bi bi-dot mb-3"
+            }],
+            [{
+              "ifLink": false,
+              "item": ["Pet-projects"],
+              "class": "fw-semibold mb-2"
+            }]
+          ]
+        }
+      }
     }
   }
