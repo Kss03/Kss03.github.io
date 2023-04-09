@@ -91,6 +91,16 @@
               "ifLink": false,
               "item": ["Full JavaScript + React", "2023"],
               "class": "mb-3 d-flex justify-content-between"
+            }],
+            [{
+              "ifLink": false,
+              "item": ["Others"],
+              "class": "fw-semibold mb-1"
+            },
+            {
+              "ifLink": false,
+              "item": ["Books, dotumentation, tutorials etc..", ""],
+              "class": "mb-3 d-flex justify-content-between"
             }]
           ]
         },
@@ -335,12 +345,12 @@
             }],
             [{
               "ifLink": false,
-              "item": ["Udemy"],
+              "item": ["Inne"],
               "class": "fw-semibold mb-1"
             },
             {
               "ifLink": false,
-              "item": ["Full JavaScript + React", "2023"],
+              "item": ["Książki, dotumentacja, tutoriały itp..", ""],
               "class": "mb-3 d-flex justify-content-between"
             }]
           ]
