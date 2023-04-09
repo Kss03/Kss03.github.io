@@ -133,7 +133,6 @@ function AddInf({inf}) {
       <div className='inf-sub-block'>
         {items.map((item, i) => {
           return item.map((ite, num) => {
-            console.log(ite)
             if (ite.ifLink) {
               return (
                 <p className={ite.class} key={`${i}${num}`}>

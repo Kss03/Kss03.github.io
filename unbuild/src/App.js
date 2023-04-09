@@ -24,12 +24,18 @@ class App extends Component {
 
   componentDidMount() {
     this.onLang('eng');
-    this.onWidth();
+    window.addEventListener('load', this.onWidth);
+    window.addEventListener('resize', this.onWidth);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('load', this.onWidth);
+    window.removeEventListener('resize', this.onWidth);
   }
 
   onWidth = () => {
     window.screen.width < 991.98 ? this.setState({mobile: true}) : this.setState({mobile: false})
-  }
+  };
 
   onLang = (chooseLang) => {
     this.setState({
