@@ -189,11 +189,11 @@
               "ifLink": true,
               "item": ["Deft Group (real estate commerce)", "In progress.."],
               "class": "ps-2 mb-1 d-flex justify-content-between",
-              "link": "#"
+              "link": "https://github.com/Kss03/deft-group"
             },
             {
               "ifLink": false,
-              "item": ["front-end application (React, bootstrap, sass, Vite)"],
+              "item": ["front-end application (React, jsx, bootstrap, sass, Vite)"],
               "class": "ps-2 bi bi-dot mb-3"
             }],
             [{
@@ -203,14 +203,36 @@
             },
             {
               "ifLink": true,
-              "item": ["Reichbauen (e-commerce)", "2022"],
+              "item": ["This cv", ""],
               "class": "mb-1 ps-2 d-flex justify-content-between",
-              "link": "https://reichbauen.ru/"
+              "link": "https://github.com/Kss03/Kss03.github.io"
             },
             {
               "ifLink": false,
-              "item": ["front-end development, adaptive layout (html, scss, js, bootstrap, webpack)"],
-              "class": "ps-2 bi bi-dot mb-1"
+              "item": ["React, jsx, scss, js, bootstrap"],
+              "class": "ps-2 bi bi-dot mb-3"
+            },
+            {
+              "ifLink": true,
+              "item": ["MarvelAPI", ""],
+              "class": "mb-1 ps-2 d-flex justify-content-between",
+              "link": "https://github.com/Kss03/marvelAPI"
+            },
+            {
+              "ifLink": false,
+              "item": ["React, jsx, scss, js"],
+              "class": "ps-2 bi bi-dot mb-3"
+            },
+            {
+              "ifLink": true,
+              "item": ["Full-Stack shop", ""],
+              "class": "mb-1 ps-2 d-flex justify-content-between",
+              "link": "https://github.com/Kss03/fullstack-shop"
+            },
+            {
+              "ifLink": false,
+              "item": ["Node.js, React, express, PostgreSQL (only server for now:)"],
+              "class": "ps-2 bi bi-dot mb-3"
             }
             ]
           ]
@@ -406,9 +428,9 @@
             },
             {
               "ifLink": true,
-              "item": ["Deft Group (handel nieruchomościami)", "In progress.."],
+              "item": ["Deft Group (nieruchomości)", "In progress.."],
               "class": "ps-2 mb-1 d-flex justify-content-between",
-              "link": "#"
+              "link": "https://github.com/Kss03/deft-group"
             },
             {
               "ifLink": false,
@@ -419,7 +441,41 @@
               "ifLink": false,
               "item": ["Pet-projects"],
               "class": "fw-semibold mb-2"
-            }]
+            },
+            {
+              "ifLink": true,
+              "item": ["This cv", ""],
+              "class": "mb-1 ps-2 d-flex justify-content-between",
+              "link": "https://github.com/Kss03/Kss03.github.io"
+            },
+            {
+              "ifLink": false,
+              "item": ["React, jsx, scss, js, bootstrap"],
+              "class": "ps-2 bi bi-dot mb-3"
+            },
+            {
+              "ifLink": true,
+              "item": ["MarvelAPI", ""],
+              "class": "mb-1 ps-2 d-flex justify-content-between",
+              "link": "https://github.com/Kss03/marvelAPI"
+            },
+            {
+              "ifLink": false,
+              "item": ["React, jsx, scss, js"],
+              "class": "ps-2 bi bi-dot mb-3"
+            },
+            {
+              "ifLink": true,
+              "item": ["Full-Stack shop", ""],
+              "class": "mb-1 ps-2 d-flex justify-content-between",
+              "link": "https://github.com/Kss03/fullstack-shop"
+            },
+            {
+              "ifLink": false,
+              "item": ["Node.js, React, express, PostgreSQL (na razie tylko serwer:)"],
+              "class": "ps-2 bi bi-dot mb-3"
+            }
+          ]
           ]
         }
       }

@@ -60,6 +60,9 @@ class App extends Component {
       <ThemeProvider
         breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}>
           {adaptive}
+          <div className="text-dark px-4 py-3 container border-top mt-4 mt-lg-0 fs-6 opacity-50">
+            Wyrażam zgodę na&nbsp;przetwarzanie moich danych osobowych dla potrzeb niezbędnych do&nbsp;realizacji procesu rekrutacji (zgodnie z&nbsp;Ustawą z&nbsp;dn.&nbsp;29.08.1997 roku o&nbsp;Ochronie Danych Osobowych Dz. Ust. Nr&nbsp;133&nbsp;poz.&nbsp;883).
+          </div>
       </ThemeProvider>
     );
   }
