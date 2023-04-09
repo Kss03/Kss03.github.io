@@ -214,7 +214,7 @@
             },
             {
               "ifLink": true,
-              "item": ["MarvelAPI", ""],
+              "item": ["Work with MarvelAPI", ""],
               "class": "mb-1 ps-2 d-flex justify-content-between",
               "link": "https://github.com/Kss03/marvelAPI"
             },
@@ -321,6 +321,16 @@
             {
               "ifLink": false,
               "item": ["Meta Front-End Developer", "2022"],
+              "class": "mb-3 d-flex justify-content-between"
+            }],
+            [{
+              "ifLink": false,
+              "item": ["Udemy"],
+              "class": "fw-semibold mb-1"
+            },
+            {
+              "ifLink": false,
+              "item": ["Full JavaScript + React", "2023"],
               "class": "mb-3 d-flex justify-content-between"
             }],
             [{
@@ -455,7 +465,7 @@
             },
             {
               "ifLink": true,
-              "item": ["MarvelAPI", ""],
+              "item": ["Praca z MarvelAPI", ""],
               "class": "mb-1 ps-2 d-flex justify-content-between",
               "link": "https://github.com/Kss03/marvelAPI"
             },
