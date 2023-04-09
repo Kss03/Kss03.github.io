@@ -1,0 +1,21 @@
+.lang-btn {
+  left: 30px;
+  top: 10px;
+
+  @media (min-width: $width-1200) {
+    left: 50px;
+  }
+
+  @media (max-width: $width-992) {
+    top: 10px;
+    right: 25px;
+    left: auto;
+
+    .btn {
+      width: 40px;
+      padding: 2px 6px;
+      font-size: 1rem;
+      border: 0 ;
+    }
+  }
+}
