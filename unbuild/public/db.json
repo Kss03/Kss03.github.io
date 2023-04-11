@@ -10,7 +10,7 @@
         {
           "altimg": "phone: ",
           "img": "bi bi-phone",
-          "title": "+48 660 151-855",
+          "title": "+48 660 151 855",
           "link": "tel:+48660151855",
           "id": "1"
         },
@@ -197,7 +197,7 @@
             },
             {
               "ifLink": true,
-              "item": ["Deft Group (real estate commerce)", "In progress.."],
+              "item": ["Deft Group (real estate commerce)", "In_progress.."],
               "class": "ps-2 mb-1 d-flex justify-content-between",
               "link": "https://github.com/Kss03/deft-group"
             },
@@ -261,7 +261,7 @@
         {
           "altimg": "phone: ",
           "img": "bi bi-phone",
-          "title": "+48 660 151-855",
+          "title": "+48 660 151 855",
           "link": "tel:+48660151855",
           "id": "1"
         },
@@ -448,7 +448,7 @@
             },
             {
               "ifLink": true,
-              "item": ["Deft Group (nieruchomości)", "In progress.."],
+              "item": ["Deft Group (nieruchomości)", "In_progress.."],
               "class": "ps-2 mb-1 d-flex justify-content-between",
               "link": "https://github.com/Kss03/deft-group"
             },

@@ -83,8 +83,8 @@ function View({item, onLang, lang}) {
 
               {links.map((item, i) => {
                 return (
-                  <li className='mt-1' key={i}>
-                    <i className={`me-4 ${item.img}`}></i>
+                  <li className='mt-1 d-flex flex-nowrap' key={i}>
+                    <i className={`me-2 ${item.img}`}></i>
                     <a href={item.link} rel="noreferrer" target="_blank">{item.title}</a>
                   </li>
                 )
@@ -93,11 +93,13 @@ function View({item, onLang, lang}) {
           </div>
         </Col>
         <Col xs={12} className='position-relative mb-3'>
-          <LangBtn onLang={onLang} lang={lang}/>
 
           <div className='main-inf'>
-            <h1>
-              {main.name}
+            <h1 className="d-flex justify-content-between flex-wrap">
+              <span>
+                {main.name}
+              </span>
+              <LangBtn onLang={onLang} lang={lang}/>
             </h1>
             <h3 className="text-uppercase">
               <span className='h3-i me-3 text-center'><i className="bi bi-person-workspace text-bg-warning text-light px-1"></i></span>

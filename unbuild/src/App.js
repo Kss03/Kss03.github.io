@@ -1,5 +1,4 @@
 
-
 import { Component } from 'react';
 import { ThemeProvider} from 'react-bootstrap';
 
@@ -10,6 +9,7 @@ import Service from './Service';
 
 import DeskTop from './desk-top/DeskTop';
 import Mobile from './mobile/Mobile';
+import Loading from './loading/Loading';
 
 
 
@@ -17,7 +17,7 @@ class App extends Component {
 
   state = {
     lang: 'eng',
-    mobile: true
+    device: null
   }
 
   service = new Service();
@@ -34,7 +34,7 @@ class App extends Component {
   }
 
   onWidth = () => {
-    window.screen.width < 991.98 ? this.setState({mobile: true}) : this.setState({mobile: false})
+    document.documentElement.clientWidth < 991.98 ? this.setState({device: "mobile"}) : this.setState({device: "desktop"})
   };
 
   onLang = (chooseLang) => {
@@ -54,7 +54,12 @@ class App extends Component {
 
 
   render() {
-    const adaptive = this.state.mobile ? <Mobile onLang={this.onLang} lang={this.state.lang}/> : <DeskTop onLang={this.onLang} lang={this.state.lang}/>
+
+    // setInterval(this.onWidth, 1000);
+
+    const adaptive = this.state.device === 'mobile' ? <Mobile onLang={this.onLang} lang={this.state.lang}/> :
+      this.state.device === 'desktop' ? <DeskTop onLang={this.onLang} lang={this.state.lang}/> : 
+      <Loading />
     
     return (
       <ThemeProvider

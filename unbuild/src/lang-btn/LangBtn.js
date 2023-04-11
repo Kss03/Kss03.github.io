@@ -29,7 +29,7 @@ class LangBtn extends Component {
       const {activeEn, activePl} = this.state;
 
         return (
-          <div className='col col-lg-auto position-absolute lang-btn'>
+          <div className='lang-btn'>
             <Button variant="outline-secondary" onClick={() => this.onUpLang('eng')} className='btn rounded-0 border-0' active={activeEn}>en</Button>
             <Button variant="outline-secondary" onClick={() => this.onUpLang('pl')} className='btn rounded-0 border-0' active={activePl}>pl</Button>
           </div>
