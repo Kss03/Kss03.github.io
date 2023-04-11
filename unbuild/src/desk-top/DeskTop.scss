@@ -1,0 +1,119 @@
+.desktop {
+
+  .first-row {
+      
+      .left-col, .right-col {
+          padding-top: 60px;
+      }
+
+      @media (min-width: $width-1200) {
+          .left-col, .right-col {
+              padding-top: 80px;
+          }
+      }
+  }
+
+  .left-col {
+      background-color: $bg-left;
+      padding-left: 60px;
+
+      h2::after {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          content: '';
+          width: 60px;
+          height: 2px;
+          background-color: $text-color;
+      }
+  }
+
+  .right-col{ 
+      background-color: $bg-right;
+      padding-left: 50px;
+      padding-right: 60px;
+
+      h2::after {
+          position: absolute;
+          left: -50px;
+          bottom: 0;
+          content: '';
+          width: 230px;
+          height: 2px;
+          background-color: $text-color;
+
+          @media (max-width: $width-1200) {
+              left: -30px;
+          }
+      }
+  }
+
+  @media (max-width: $width-1200) {
+      .left-col {
+          padding-left: 40px;
+      }
+
+      .right-col {
+          padding-left: 30px;
+          padding-right: 40px;
+      }
+  }
+
+  h1 {
+      padding-right: 20px;
+      margin-bottom: 25px;
+      font-weight: 700;
+      font-size: 2.7rem;
+      line-height: 1.2em;
+      letter-spacing: 0.1em;
+  }
+
+  h2 {
+      position: relative;
+      padding-bottom: 15px;
+      margin-bottom: 20px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2.2rem;
+      line-height: 1.3em;
+      letter-spacing: 0.275em;
+
+      @media (max-width: $width-1200) {
+        letter-spacing: 0.15em;
+      }
+  }
+
+  h3 {
+      margin-bottom: 12px;
+      font-weight: 700;
+      font-size: 1.2rem;
+      line-height: 1.2em;
+
+      .h3-i {
+          display: inline-block;
+          width: 25px;
+      }
+  }
+
+  p {
+      margin-bottom: .8em;
+      font-weight: 400;
+      font-size: 1.2rem;
+      line-height: 1.2em;
+  }
+
+  a {
+      font-weight: 400;
+      font-size: 1.2rem;
+      line-height: 1.2em;
+      color: $text-color;
+  }
+
+  .inf-block {
+      margin-bottom: 50px;
+  }
+
+  .inf-sub-block {
+      margin-bottom: 30px;
+  }
+}
