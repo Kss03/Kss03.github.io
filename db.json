@@ -3,7 +3,8 @@
       "main": {
         "name": "Kirill Suranov",
         "prof": "Front-End Developer",
-        "location": "Szczecin, Poland"
+        "location": "Szczecin, Poland",
+        "age": "25 years old"
       },
 
       "links": [
@@ -25,7 +26,7 @@
         {
           "altimg": "image",
           "img": "bi bi-facebook",
-          "title": "facebook",
+          "title": "Facebook",
           "link": "https://www.facebook.com/kirill.suranov.9/",
           "id": "3"
   
@@ -33,10 +34,16 @@
         {
           "altimg": "image",
           "img": "bi bi-whatsapp",
-          "title": "whatsapp",
+          "title": "Whatsapp",
           "link": "https://wa.me/+48660151855",
           "id": "4"
-  
+        },
+        {
+          "altimg": "image",
+          "img": "bi bi-linkedin",
+          "title": "linkedin",
+          "link": "LinkedIn.com/in/suranov",
+          "id": "4"
         }
       ],
 
@@ -180,8 +187,14 @@
               "class": "fw-semibold mb-2"
             },
             {
-              "ifLink": true,
+              "ifLink": false,
               "item": ["Reichbauen (e-commerce)", "2022"],
+              "class": "mb-1 ps-2 d-flex justify-content-between fw-bold",
+              "link": "https://reichbauen.ru/"
+            },
+            {
+              "ifLink": true,
+              "item": ["reichbauen.ru"],
               "class": "mb-1 ps-2 d-flex justify-content-between",
               "link": "https://reichbauen.ru/"
             },
@@ -196,8 +209,14 @@
               "class": "ps-2 bi bi-dot mb-3"
             },
             {
-              "ifLink": true,
+              "ifLink": false,
               "item": ["Deft Group (real estate commerce)", "In_progress.."],
+              "class": "ps-2 mb-1 d-flex justify-content-between fw-bold",
+              "link": "https://github.com/Kss03/deft-group"
+            },
+            {
+              "ifLink": true,
+              "item": ["github.com/Kss03/deft-group"],
               "class": "ps-2 mb-1 d-flex justify-content-between",
               "link": "https://github.com/Kss03/deft-group"
             },
@@ -212,19 +231,14 @@
               "class": "fw-semibold mb-2"
             },
             {
-              "ifLink": true,
-              "item": ["This cv", ""],
-              "class": "mb-1 ps-2 d-flex justify-content-between",
-              "link": "https://github.com/Kss03/Kss03.github.io"
-            },
-            {
               "ifLink": false,
-              "item": ["React, jsx, scss, js, bootstrap"],
-              "class": "ps-2 bi bi-dot mb-3"
+              "item": ["Work with MarvelAPI", ""],
+              "class": "mb-1 ps-2 d-flex justify-content-between fw-bold",
+              "link": "https://github.com/Kss03/marvelAPI"
             },
             {
               "ifLink": true,
-              "item": ["Work with MarvelAPI", ""],
+              "item": ["github.com/Kss03/marvelAPI"],
               "class": "mb-1 ps-2 d-flex justify-content-between",
               "link": "https://github.com/Kss03/marvelAPI"
             },
@@ -234,14 +248,31 @@
               "class": "ps-2 bi bi-dot mb-3"
             },
             {
-              "ifLink": true,
+              "ifLink": false,
               "item": ["Full-Stack shop", ""],
+              "class": "mb-1 ps-2 d-flex justify-content-between fw-bold",
+              "link": "https://github.com/Kss03/fullstack-shop"
+            },
+            {
+              "ifLink": true,
+              "item": ["github.com/Kss03/fullstack-shop"],
               "class": "mb-1 ps-2 d-flex justify-content-between",
               "link": "https://github.com/Kss03/fullstack-shop"
             },
             {
               "ifLink": false,
               "item": ["Node.js, React, express, PostgreSQL (only server for now:)"],
+              "class": "ps-2 bi bi-dot mb-3"
+            },
+            {
+              "ifLink": true,
+              "item": ["This cv", ""],
+              "class": "mb-1 ps-2 d-flex justify-content-between",
+              "link": "https://github.com/Kss03/Kss03.github.io"
+            },
+            {
+              "ifLink": false,
+              "item": ["React, jsx, scss, js, bootstrap"],
               "class": "ps-2 bi bi-dot mb-3"
             }
             ]
@@ -254,7 +285,8 @@
       "main": {
         "name": "Kirill Suranov",
         "prof": "Front-End Developer",
-        "location": "Szczecin, Poland"
+        "location": "Szczecin, Poland",
+        "age": "25 lat"
       },
 
       "links": [
@@ -287,7 +319,13 @@
           "title": "whatsapp",
           "link": "https://wa.me/+48660151855",
           "id": "4"
-  
+        },
+        {
+          "altimg": "image",
+          "img": "bi bi-linkedin",
+          "title": "linkedin",
+          "link": "LinkedIn.com/in/suranov",
+          "id": "4"
         }
       ],
 
